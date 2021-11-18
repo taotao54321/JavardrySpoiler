@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+h1, h2, h3 {
+    background-color: #cccccc;
+}
+
+#spoiler-menu {
+    position: fixed;
+    z-index: 1;
+    width: 10vw;
+}
+
+#spoiler-page {
+    margin-left: 10vw;
+}
+
+th {
+    background-color: lightgreen;
+}
+
+.fixedTable-wrapper {
+    overflow: scroll;
+    max-height: 75vh;
+}
+
+.fixedTable-table {
+    position: relative;
+}
+
+.fixedTable-th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
